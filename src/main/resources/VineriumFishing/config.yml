@@ -1,0 +1,9 @@
+Language: 'ru_ru'
+Enabled: true
+DefaultTemplate: 'default'
+SalvageTools:
+  - 'IRON_SWORD'
+  - 'DIAMOND_SWORD'
+  - 'NETHERITE_SWORD'
+AntiAfk:
+  Enabled: true

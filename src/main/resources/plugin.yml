@@ -1,0 +1,10 @@
+name: VineriumFishing
+version: 1.0
+author: SaintQd
+main: org.saintqd.vineriumfishing.VineriumFishing
+api-version: 1.21.11
+depend: [VineriumLib, MythicMobs, WorldGuard]
+permissions:
+  vineriumfishing.admin:
+    description: Access to admin commands.
+    default: op

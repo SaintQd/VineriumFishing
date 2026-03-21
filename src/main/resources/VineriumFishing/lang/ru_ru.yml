@@ -1,0 +1,7 @@
+Lang:
+  not_enough_arguments: "<red>Недостаточно аргументов."
+  reload_message: "<green>Плагин перезагружен."
+  no_permission: "<red>Нет прав!"
+  fishing_catch_mob: "<gold>Вы поймали нечто весьма недовольное вашей деятельностью!"
+  fishing_catch_fail: "<gold>Вам не удалось ничего поймать."
+  fishing_catch_anti_afk_hint: "<gold>Не стоит отвлекаться на другие действия во время рыбалки..."

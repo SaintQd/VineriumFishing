@@ -1,0 +1,17 @@
+name: VineriumFishing
+version: '1.0'
+author: SaintQd
+main: org.saintqd.vineriumfishing.VineriumFishing
+api-version: 1.21.11
+description: VineriumFishing Plugin
+dependencies:
+  server:
+    VineriumLib:
+      load: BEFORE
+      required: true
+    MythicMobs:
+      load: BEFORE
+      required: true
+    WorldGuard:
+      load: BEFORE
+      required: true
