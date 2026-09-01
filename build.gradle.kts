@@ -22,8 +22,6 @@ dependencies {
 
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.16-SNAPSHOT")
     compileOnly("io.lumine:Mythic-Dist:5.10.1-SNAPSHOT")
-
-    implementation(kotlin("stdlib-jdk8"))
 }
 
 tasks.withType<Jar> {

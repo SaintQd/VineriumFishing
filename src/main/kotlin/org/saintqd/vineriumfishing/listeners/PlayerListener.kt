@@ -193,6 +193,10 @@ class PlayerListener : Listener {
                 }
             }
 
+            if (possibleFishList.isEmpty()) {
+                event.player.sendMessage(VineriumLib.inst().langManager.parseLangString(VineriumFishing.inst(), "fishing_catch_fail"))
+                return
+            }
             val selectedFish = possibleFishList.random()
             val selectedFishName = FishingManager.instance.parseFishTag(selectedFish.name)
             val selectedFishItem = MythicProvider.get().itemManager.getItem(selectedFishName) ?: return
